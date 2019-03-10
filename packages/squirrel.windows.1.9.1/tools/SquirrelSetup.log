@@ -1,0 +1,7 @@
+﻿2019-03-10 10:43:15> Program: Starting Squirrel Updater: --releasify C:\KPMG-TaxUK\WpfSquirrelTestProject\SquirrelPackage\WpfSquirrelTestProject.1.0.0.nupkg
+2019-03-10 10:43:15> Program: Bootstrapper EXE found at:C:\KPMG-TaxUK\WpfSquirrelTestProject\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-03-10 10:43:15> Program: Creating release package: C:\KPMG-TaxUK\WpfSquirrelTestProject\Releases\WpfSquirrelTestProject.1.0.0.nupkg
+2019-03-10 10:43:15> ReleasePackage: Creating release package: C:\KPMG-TaxUK\WpfSquirrelTestProject\Releases\WpfSquirrelTestProject.1.0.0.nupkg => C:\KPMG-TaxUK\WpfSquirrelTestProject\Releases\WpfSquirrelTestProject-1.0.0-full.nupkg
+2019-03-10 10:43:16> ReleasePackage: Extracting dependent packages: []
+2019-03-10 10:43:16> ReleasePackage: Removing unnecessary data
+2019-03-10 10:43:18> Program: Building embedded zip file for Setup.exe
