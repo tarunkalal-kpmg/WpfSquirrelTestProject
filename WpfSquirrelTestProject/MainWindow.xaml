@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfSquirrelTestProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfSquirrelTestProject"
+        mc:Ignorable="d"
+        Title="Squirrel Test Application" Height="150" Width="Auto">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="This is first test application for auto-update using squirrel"  HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontSize="24" Foreground="Blue"/>
+        
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Executing assembly location :" />
+                <TextBlock TextWrapping="WrapWithOverflow" HorizontalAlignment="Left" Grid.Column="1" Name="ExeAssLoc" Margin="0,0,10,0"/>
+            </Grid>
+            <Grid Grid.Column="2"  >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Version Number :" />
+                <TextBlock HorizontalAlignment="Left"  Grid.Column="1" Name="Vernum" />
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
