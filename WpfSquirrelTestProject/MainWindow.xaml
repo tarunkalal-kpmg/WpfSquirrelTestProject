@@ -13,7 +13,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock Text="This is first test application for auto-update using squirrel"  HorizontalAlignment="Center" VerticalAlignment="Center"
-                   FontSize="24" Foreground="Blue" Background="Brown"/>
+                   FontSize="24" Foreground="Brown" Background="Transparent"/>
         
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>
