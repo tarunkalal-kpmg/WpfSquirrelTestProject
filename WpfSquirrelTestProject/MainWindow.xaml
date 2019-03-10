@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfSquirrelTestProject"
         mc:Ignorable="d"
-        Title="Squirrel Test Application" Height="150" Width="Auto">
+        Title="Squirrel Test Application" Height="150" Width="Auto" Loaded="Window_Loaded">
     <Grid >
         <Grid.RowDefinitions>
             <RowDefinition />
