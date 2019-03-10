@@ -11,7 +11,7 @@ namespace WpfSquirrelTestProject
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string updatePath = @"C:\KPMG-TaxUK\WpfSquirrelTestProject\SquirrelPackage";
+        private string updatePath = "https://github.com/tarunkalal-kpmg/WpfSquirrelTestProject/tree/master/SquirrelPackage";
         public MainWindow()
         {
             InitializeComponent();
